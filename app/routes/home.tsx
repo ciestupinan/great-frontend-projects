@@ -4,8 +4,7 @@ import TestimonalCard from "~/testimonalCard/testimonialCard";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "New React Router App" },
-    { name: "description", content: "Welcome to React Router!" },
+    { title: "Great FrontEnd Projects" },
   ];
 }
 
