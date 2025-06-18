@@ -1,5 +1,5 @@
-import Image from "./cristina.png";
-
+import CristinaImage from "./cristina.png";
+import SampleImage from "./profile-thumbnail.png"
 const TestimonalCard = () => {
   return (
     <div className="flex justify-center flex-col">
@@ -16,7 +16,7 @@ const TestimonalCard = () => {
           }}
         >
           <div className="flex mb-[16px]">
-            <img src={Image} className="w-[48px] mr-[6px] rounded-full"></img>
+            <img src={CristinaImage} className="w-[48px] mr-[6px] rounded-full"></img>
             <div>
               <div className="font-semibold">Cristina Estupiñán</div>
               <div>@ciestupinan</div>
@@ -36,10 +36,10 @@ const TestimonalCard = () => {
           }}
         >
           <div className="flex mb-[16px]">
-            <img src={Image} className="w-[48px] mr-[6px] rounded-full"></img>
+            <img src={SampleImage} className="w-[48px] mr-[6px] rounded-full"></img>
             <div>
-              <div className="font-semibold">Cristina Estupiñán</div>
-              <div>@ciestupinan</div>
+              <div className="font-semibold">Sarah Dole</div>
+              <div>@sarahdole</div>
             </div>
           </div>
           <div className="line-clamp-5">
