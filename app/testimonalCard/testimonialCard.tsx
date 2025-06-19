@@ -40,6 +40,7 @@ const TestimonalCard = () => {
                 <div className="flex mb-[16px]">
                   <img
                     src={item.image}
+                    alt={`${item.name} Image`}
                     className="w-[48px] mr-[6px] rounded-full"
                   />
                   <div>
@@ -49,7 +50,7 @@ const TestimonalCard = () => {
                     </div>
                   </div>
                 </div>
-                <div className="overflow-y-scroll max-h-[100px]">
+                <div className="line-clamp-5">
                   {item.text}
                 </div>
               </div>
